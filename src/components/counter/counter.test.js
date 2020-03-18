@@ -5,7 +5,7 @@ import { mount } from 'enzyme'
 import { exportAllDeclaration } from '@babel/types'
 
 describe('<Counter />', () => {
-  it('renders correctly', () => {
+  it('renders correctly, snapshot testing', () => {
     const tree = renderer.create(<Counter />).toJSON()
     expect(tree).toMatchSnapshot()
   })
@@ -24,9 +24,6 @@ describe('<Counter />', () => {
       expect(component.find('div')).toIncludeText('1')
     })
     it('Assert that state is being transferred to the DOM', () => {
-
-    })
-    it('Assert DOM stability via snapshot testing', () => {
 
     })
   })
