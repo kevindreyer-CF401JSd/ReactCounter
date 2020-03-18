@@ -1,0 +1,60 @@
+html {
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  /* display: flex;
+  flex-direction: column; */
+  min-height: 100vh;
+}
+.counter {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px 0 50px 0;
+  /* flex: 1; */
+  background: whitesmoke;
+  height: 50%;
+}
+
+header {
+  font-family: sans-serif;
+  text-align: center;
+  background: lightskyblue; 
+  padding: 20px;
+}
+
+footer {
+  font-family: sans-serif;
+  text-align: center;
+  background: lightskyblue;
+  padding: 20px 0 20px 0;
+  /* margin-top: auto; */
+}
+
+.count {
+  width: 50px;
+  padding: 5px;
+}
+
+.clicker {
+  width: 200px;
+  border: 1px solid;
+  padding: 5px;
+  user-select: none;
+  /* margin: 0 auto; */
+  /* margin-top: 20px; */
+  background: white;
+}
+
+.down {
+  margin-right: 30px;
+}
+.up {
+  margin-left: 30px;
+}
