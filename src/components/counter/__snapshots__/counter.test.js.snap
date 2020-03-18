@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> renders correctly 1`] = `
+<div
+  className="counter"
+>
+  <span
+    className="down clicker"
+    id="down"
+    onClick={[Function]}
+  >
+     - 
+  </span>
+  <span
+    className="count "
+  >
+    0
+  </span>
+  <span
+    className="up clicker"
+    id="up"
+    onClick={[Function]}
+  >
+     + 
+  </span>
+</div>
+`;

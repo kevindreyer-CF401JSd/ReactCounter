@@ -12,15 +12,4 @@ describe('<App />', () => {
     const component = shallow(<App />)
     expect(component.find('div')).toExist()
   })
-  describe('For Up and Down events', () => {
-    it('Assert state changes properly', () => {
-
-    })
-    it('Assert that state is being transferred to the DOM', () => {
-
-    })
-    it('Assert DOM stability via snapshot testing', () => {
-
-    })
-  })
 })

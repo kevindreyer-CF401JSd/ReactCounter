@@ -14,6 +14,7 @@ exports[`<App /> renders correctly 1`] = `
   >
     <span
       className="down clicker"
+      id="down"
       onClick={[Function]}
     >
        - 
@@ -25,6 +26,7 @@ exports[`<App /> renders correctly 1`] = `
     </span>
     <span
       className="up clicker"
+      id="up"
       onClick={[Function]}
     >
        + 
