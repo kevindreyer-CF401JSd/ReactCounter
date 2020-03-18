@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+<div
+  classname="container"
+>
+  <header>
+    <h1>
+      Kevin's React Counter App
+    </h1>
+  </header>
+  <div
+    className="counter"
+  >
+    <span
+      className="down clicker"
+      onClick={[Function]}
+    >
+       - 
+    </span>
+    <span
+      className="count "
+    >
+      0
+    </span>
+    <span
+      className="up clicker"
+      onClick={[Function]}
+    >
+       + 
+    </span>
+  </div>
+  <footer>
+    © 2020 | Kevin Dreyer | Code Fellows
+  </footer>
+</div>
+`;
